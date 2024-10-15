@@ -3893,7 +3893,8 @@ label {
   display: inline-block;
 }
 .cs-site_branding img {
-  max-height: 45px;
+  max-height: 300px;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 1200px) {
@@ -7755,7 +7756,8 @@ label {
     height: 450px;
   }
   .cs-portfolio.cs-style1.cs-size3 {
-    height: 500px;
+    height: 100px;
+    width: 400px;
   }
 }
 @media screen and (max-width: 1400px) {
