@@ -7518,7 +7518,7 @@ label {
 .cs-portfolio.cs-style1 .cs-portfolio_hover {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 330px;
   left: 0;
   top: 0;
   opacity: 0;
@@ -7565,7 +7565,7 @@ label {
 }
 .cs-portfolio.cs-style1 .cs-portfolio_bg {
   height: 100%;
-  width: 100%;
+  width: 330px;
   border-radius: inherit;
 }
 .cs-portfolio.cs-style1 .cs-portfolio_info {
@@ -9478,4 +9478,32 @@ html .ui-button.ui-state-disabled:active {
   .cs-side_header_box{
     display: none;
   }
+}
+.cs-portfolio .cs-style1 .cs-type1 .cs-portfolio_hover-port{
+  width: 100%;
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25D366;
+  border-radius: 80px;  /* Rounded corners for a softer look */
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  background-color: #155c54;
+  transform: scale(1.1);
+}
+
+.whatsapp-icon svg {
+  width: 36px;
+  height: 36px;
+  fill: white;
 }
