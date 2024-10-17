@@ -3893,8 +3893,8 @@ label {
   display: inline-block;
 }
 .cs-site_branding img {
-  max-height: 300px;
-  margin-top: 2rem;
+  width: 200px;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 1200px) {
@@ -4282,10 +4282,10 @@ label {
     width: 38px;
     height: 38px;
   }
-  .cs-toolbox,
+  /* .cs-toolbox,
   .cs-side_header {
     display: none;
-  }
+  } */
   .cs-nav .cs-nav_list .cs-mega_wrapper ul {
     display: block;
   }
@@ -4311,9 +4311,7 @@ label {
   .cs-hamburger_wrap .cs-hamburger {
     margin-right: 0;
   }
-  .cs-site_branding img {
-    max-height: 32px;
-  }
+  
   .cs-site_header.cs-style1 .cs-btn span {
     display: none;
   }
@@ -7756,7 +7754,7 @@ label {
     height: 450px;
   }
   .cs-portfolio.cs-style1.cs-size3 {
-    height: 100px;
+    height: 400px;
     width: 400px;
   }
 }
@@ -9476,3 +9474,8 @@ html .ui-button.ui-state-disabled:active {
     margin-left: auto;
   }
 }/*# sourceMappingURL=style.css.map */
+@media (max-width: 1199px) {
+  .cs-side_header_box{
+    display: none;
+  }
+}
