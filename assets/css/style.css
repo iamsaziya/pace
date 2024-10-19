@@ -3893,13 +3893,14 @@ label {
   display: inline-block;
 }
 .cs-site_branding img {
-  width: 200px;
+  width: 250px;
   margin-top: 1rem;
 }
 
 @media screen and (min-width: 1200px) {
   .cs-main_header {
     position: relative;
+    height: 110px;
   }
   .cs-main_header .container-fluid {
     padding-right: 40px;
@@ -9506,4 +9507,9 @@ html .ui-button.ui-state-disabled:active {
   width: 36px;
   height: 36px;
   fill: white;
+}
+@media (max-width: 800px) {
+  .cs-m0 {
+    max-width: 100%;
+  }
 }
