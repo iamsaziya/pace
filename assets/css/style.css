@@ -3895,6 +3895,7 @@ label {
 }
 .cs-site_branding img {
   width: 250px;
+  margin-left: 30px;
   margin-top: 1rem;
 }
 
