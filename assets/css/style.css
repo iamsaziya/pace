@@ -3902,7 +3902,7 @@ label {
 @media screen and (min-width: 1200px) {
   .cs-main_header {
     position: relative;
-    height: 110px;
+    height: 130px;
   }
   .cs-main_header .container-fluid {
     padding-right: 40px;
